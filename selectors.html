@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./selectors.css">
+    <style>
+        h2{
+            color: blueviolet;
+        }
+
+        .Text{
+            color: blue;
+        }
+
+        #Heading{
+            color:brown
+        }
+
+        *{
+            color: yellow;
+        }
+
+        h4,p {
+            color:rgb(219, 27, 139)
+        }
+
+        div > p {
+            color: orange;
+        }
+        h4+ p {
+            color: greenyellow;
+        }
+
+        h5 ~ p{
+            color:rgb(42, 218, 241)
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Selectors:</h2>
+    <h2>1. Tag Selector</h2>
+
+    <h3 class = "Text">Class Selector:</h3>
+    <h3 class = "Text">Slects elements with a specific class , We use (.) to select class</h3>
+
+    <h3 id="Heading">Id selector:</h3>
+    <h3 id="Heading">Selects an element with unique id , we use(#) to select id</h3>
+    
+    <h3>Universal Selector:</h3>
+    <h3>Selects all Html Elements on the page , we Use (*) to select</h3>
+
+    <h4> Group Selector:</h3>
+    <p>Selects Multiple Elements at Once , and we seperate it by using comma(,)<p>
+    
+    <div>
+        <p>Child Selector:</p>
+        <span><p>Slects Direct child Elements only</p></span>
+    </div>
+
+    <h4>Adjacent sibling selector: </h4>
+    <p>Selects The immediate Next Sibling and We use(+) to select</p>
+<div>
+     <h5>Genenral Sibling Selector :</h4>
+    <p>Selects all Sibling elements after a specified element</p>
+    <p>We use (~) symbol to select all sibling Elemnts</p>
+
+</div>
+    
+</body>
+</html>
