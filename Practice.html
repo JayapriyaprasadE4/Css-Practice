@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Practice.css">
+    <!-- Internal CSS -->
+ <style>
+    h4{
+        color: rgb(0, 255, 221);
+    }
+.btns button{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: lightseagreen;
+    border: 1px solid black;
+    cursor: pointer;
+}
+    button:hover{
+
+        background-color: rgb(53, 224, 53);
+
+        color:#effaef
+        
+    }
+
+    .btns button:active{
+        color: red;
+        background-color: blue;
+    }
+
+    .btns button:focus{
+        color:blue;
+        background-color: purple;
+    }
+
+    .btns button:first-child{
+        color: purple;
+        background-color: yellow;
+    }
+
+    .btns button:last-child{
+        color: orange;
+    }
+    p::before{
+        content: "Note : ";
+        color: red;
+        font-weight: bold;
+    }
+
+    p::after{
+     content: "readed";
+        color: rgb(23, 219, 88);
+        font-size: 20px;
+    }
+    p::first-letter{
+        font-size: 32px;
+        color: blue;
+    }
+    p::first-line{
+        color: red;
+    }
+  .box1{
+    width: 200px;
+    height:100px;
+    background-color: lightblue;
+  }
+  .box1{
+    padding: 20px;
+    border:3px rgb(20, 20, 245);
+    margin: 30px;
+  }
+.box{
+    width: 150px;
+    height: 100px;
+    background-color: pink;
+    border:2px red;
+    margin: 20px;
+}
+ </style>
+    
+</head>
+<body>
+    <h5 class="profile">Jayapriya</h5>
+    <!-- Inline CSS -->
+   
+<h1 style="color: gold;">Good Morning..!</h1>
+<h4 style="font-size: larger;">Practising CSS</h4>
+<h4>Internal CSS</h4>
+<p id="text" class="para">Learning CSS Specificity</p>
+/* <!-- Two types of Pseudo 1. pseudo classes 2. pseudo elements --> */
+<div class="btns">
+    <button > 1.Hover</button>
+<button>2.Active</button>
+<button>3.Focus</button>
+<button>4.firstchild</button>
+<button>5.child</button>
+  
+
+
+
+
+
+</div>
+<!-- 2.pseudo elements 1. ::before 2. ::after 3 :: first-letter :: 4 :: first-line-->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus est dolorem iste porro. Esse expedita nemo, aliquid earum quia odit quasi sapiente ea? Repellendus omnis dolores voluptate ipsum sint iusto?</p>
+<div class="box1">Box Model</div>
+<div class="box1">Box2</div>
+<div class="box">Box3</div>
+
+
+</body>
+</html>
