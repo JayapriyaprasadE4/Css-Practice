@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script src="./Specifity.css"></script>
+    <style>
+        h2{
+            color: blueviolet;
+        }
+
+        .Text{
+            color: blue;
+        }
+
+        #Heading{
+            color:brown
+        }
+
+        *{
+            color: yellow;
+        }
+
+        h4,p {
+            color:rgb(219, 27, 139)
+        }
+
+        div > p {
+            color: orange;
+        }
+        h4+ p {
+            color: greenyellow;
+        }
+
+        h5 ~ p{
+            color:rgb(42, 218, 241)
+        }
+        h6{
+            background-color: aqua;
+        }
+    </style>
+    <style>
+        /* .btn{
+            padding: 12px 20px;
+            margin: 8px;
+            border: 2px;
+            color: yellow;
+            
+        } */
+
+        .btn1{
+            background-color : blue
+        }
+
+        .btn2{
+            background-color : rgb(0, 255, 98)
+        }
+
+            .btn3{
+            background-color : rgb(0, 255, 0)
+        }
+
+            .btn4{
+            background-color : rgb(15, 15, 179)
+        }
+        .btn5{
+            background-color: rgb(48, 8, 85);
+        }
+            .btn5:hover:hover{
+            background-color : rgb(207, 182, 202);color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Selectors:</h2>
+    <h2>1. Tag Selector</h2>
+
+    <h3 class = "Text">Class Selector:</h3>
+    <h3 class = "Text">Slects elements with a specific class , We use (.) to select class</h3>
+
+    <h3 id="Heading">Id selector:</h3>
+    <h3 id="Heading">Selects an element with unique id , we use(#) to select id</h3>
+    
+    <h3>Universal Selector:</h3>
+    <h3>Selects all Html Elements on the page , we Use (*) to select</h3>
+
+    <h4> Group Selector:</h3>
+    <p>Selects Multiple Elements at Once , and we seperate it by using comma(,)<p>
+    
+    <div>
+        <p>Child Selector:</p>
+        <span><p>Slects Direct child Elements only</p></span>
+    </div>
+
+    <h4>Adjacent sibling selector: </h4>
+    <p>Selects The immediate Next Sibling and We use(+) to select</p>
+<div>
+     <h5>Genenral Sibling Selector :</h4>
+    <p>Selects all Sibling elements after a specified element</p>
+    <p>We use (~) symbol to select all sibling Elemnts</p>
+    <p>Practice</p>
+    <br>
+
+
+    
+
+</div>
+<p id="Paragraph" class="Lorem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequuntur consectetur cum nostrum. Ab porro officiis laboriosam sunt exercitationem? Quo aspernatur voluptas esse delectus voluptatum deleniti placeat pariatur temporibus impedit.</p>
+<h6 style="background-color: rgba(124, 233, 233, 0.884); border: 2px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus adipisci error quas molestiae reiciendis doloremque atque cum veritatis, accusantium, corporis rerum porro ea doloribus vitae laborum aspernatur accusamus commodi voluptate.</h6>
+<p id="para">Text</p>
+<button class="btn" >Username</button>
+<button id="click" style="color: blueviolet; border: rosybrown; ">Password</button>
+
+<button class="btn1">Button 1</button>
+<button class="btn2">Button 2</button>
+<button class="btn3">Button 3</button>
+<button class="btn4">Button 4</button>
+<button class="btn5">Button 5</button>
+
+<p style="background-color: lightgreen;padding: 20px; width: 50%;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque incidunt harum rerum perferendis quos totam vero dicta asperiores tempore, repudiandae blanditiis quisquam pariatur sint temporibus quaerat. Minima libero asperiores odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis reiciendis tenetur hic nobis incidunt voluptatum unde delectus laborum consequuntur aperiam dolores quam, laboriosam quibusdam autem, inventore iste, impedit iusto minus!</p>
+
+
+</body>
+</html>

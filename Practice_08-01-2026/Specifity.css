@@ -1,0 +1,24 @@
+p{color: blue;}
+.paragraph{color: blueviolet;}
+#lorem{color: red;}
+
+p{color: rgb(92, 43, 226) !important;}
+#para{color: yellowgreen;}
+
+.btn{
+    background-color: rgb(21, 21, 199);
+    color: rgb(224, 40, 40);
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+}
+
+:hover{
+    color: aqua;
+}
+
+.border {
+    padding: 20px;
+    background-color: coral;
+    border-radius: 50%;
+}
