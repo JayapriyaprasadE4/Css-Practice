@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        .layout{
+            background: #f1d5d5;
+            min-height: 400px;
+            min-width: 200px;
+            padding: 10px;
+        }
+        .header-box,.box,.logo-box,.profile{
+           background-color: grey;
+           margin: 10px;
+           padding: 10px;
+           text-align: center;
+           font-weight: bold;
+           border:2px solid black
+        }
+
+        .header-box{
+            height: 80px;
+        }
+       .footer{
+        background-color: grey;
+        margin:10px;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid black;
+       }
+        
+            
+    </style>
+</head>
+<body style="display: flex; flex-direction: row; background: #c5c0c0;">
+    <div style="display: flex ; flex-direction: column;" class="layout">
+        <div class="box">
+            Header
+        </div>
+        <div class="box">
+            Nav bar
+        </div>
+        <div style="display: flex; flex-direction:row ; gap:10px">
+            <div class="box small">
+                body1
+            </div>
+            <div class="box small">
+                body2
+            </div>
+        </div>
+        <div class="box">
+            footer
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: column; background: #e9cece;" class="layout">
+        <div class="logo-box">
+            Logo
+        </div>
+        <div class="header-box">
+            Header
+        </div>
+        <div style="display: flex;">
+            <div class="box nav">
+                Nav
+            </div>
+            <div class="profile">
+                Profile
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="footer">Footer</div>
+            <div class="footer">closing</div>
+        </div>
+
+        
+    </div style="display: flex; flex-direction:row; background: #e9cece;" class="layout" >
+    <div style="display: flex;flex-direction: column;" class="layout" >
+        <div>
+        Logo
+    </div>
+    <div>
+        SideBar/Navigation
+    </div>
+    <div style="display: flex; flex-direction: column;">
+        <div>
+            Header?Banner
+        </div>
+        <div>
+            Body Area
+        </div>
+    </div>
+    <div>
+        Footer
+    </div>
+    </div>
+    
+    </div>
+    
+</body>
+</html>

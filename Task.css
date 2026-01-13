@@ -1,0 +1,121 @@
+
+body{
+    background-color:white;
+    padding: 30px;
+     width: 600px;
+    margin: 20px 
+}
+.background{
+    background: #eee;
+    width: 420px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.container{
+    background: #f7f7f7;
+    display: flex;
+    /* padding: 15px; */
+}
+
+
+
+
+.logo, .nav, .header, .footer{
+    background-color:grey;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+    text-align: center;}
+    .middle{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar{
+    width: 120px;
+    height:200px;
+     background-color:grey;
+    text-align: center;
+    padding: 12px;
+    flex: 1;
+}
+
+.body{
+    flex:3;
+  background-color:grey;
+    text-align: center;
+    padding: 12px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start ;
+    align-items:flex-start;
+   flex-wrap: wrap;
+}
+
+.page{
+    width: 600px;
+    border:2px solid #ccc;
+    padding: 10px;
+}
+
+.top{
+    display: flex;
+
+}
+
+.logo{
+    width:30%;
+    background: grey;
+    padding: 10px;
+}
+.navigation{
+    width:70%;
+    background: grey;
+    padding: 10px;
+}
+
+.header{
+    background-color: grey;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.intro{
+    background-color: grey;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.boxes{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.box1{
+    flex:1;
+    background-color: grey;
+    padding: 40px;
+    text-align: center;
+}
+.footer{
+    margin-top: 10px;
+    text-align: center;
+   background-color: grey;
+
+}
+.main-container{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.layout{
+    width: 48%;
+    border:2px soloid yellow;
+    padding: 10px;
+}

@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(245, 240, 240);
+}
+
+.page{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.layout{
+    width: 48%;
+    background-color: grey;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.between{
+    justify-content: space-between;
+}
+
+.logo, .navigation,.header,.footer,.sidebar,.body,.into,.box{
+    background-color: grey;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.nav{width: 60%;
+}
+.header{
+    height: 50px;
+}
+.content{
+    display: flex;
+    gap: 10px;
+}
+.sidebar{
+    width:30%
+}
+.body{
+    flex: 1;
+}
+.full{
+    height: 80px;
+}
+.boxes{
+    display: flex;
+    gap: 10px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.grid .box{
+    width: 30%;
+}
